@@ -13,8 +13,6 @@ Responsive Design: The portfolio is designed to be fully responsive, ensuring a 
 Dynamic Content: Content such as projects and skills are dynamically generated to allow for easy updates and additions.
 HTML, CSS, JavaScript: Utilizes the fundamentals of web development including HTML for structure, CSS for styling, and JavaScript for interactivity.
 
-Bulma Framework: Styled using Bulma, a modern CSS framework based on Flexbox for easier and faster web development.
-Usage
 
 To run this project locally:
 
