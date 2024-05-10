@@ -25,28 +25,6 @@ Install dependencies using your package manager of choice (npm install or yarn i
 Start the development server (npm run dev or yarn dev).
 Open your web browser and navigate to http://localhost:3000.
 
-Folder Structure
-
-csharp
-
-Copy code
-portfolio-profile/
-│
-├── public/             # Static assets
-│   ├── index.html      # Main HTML file
-│   └── ...
-│
-├── src/                # Source code
-│   ├── assets/         # Images, fonts, etc.
-│   ├── components/     # Reusable components
-│   ├── styles/         # CSS styles
-│   ├── pages/          # Individual pages
-│   ├── utils/          # Utility functions
-│   └── ...
-│
-├── README.md           # Project README
-├── package.json        # npm package configuration
-└── ...
 
 Contribution
 Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
@@ -55,5 +33,5 @@ License
 This project is licensed under the MIT License.
 
 Contact
-For any inquiries or collaboration opportunities, you can reach me at your.email@example.com.
+For any inquiries or collaboration opportunities, you can reach me at nik.piao26@gmail.com
 
