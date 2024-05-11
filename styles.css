@@ -137,20 +137,60 @@ body {
 
 /* navbar end */
 
-.text-animate {
-	transform: translate(-80px);
-}
 
-/* Container */
+/* Container Div */
+
 .container {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+/*	justify-content: center;*/
 	align-content: center;
 	margin: 0 10rem;
 	gap: 4rem;
 }
+
+
+.text-animate {
+  display: inline-flex;
+  margin: 0;
+  font-size: 1.2rem;
+  vertical-align: top;
+}
+
+.text {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.text.active {
+  opacity: 1;
+}
+
+.text-animate span {
+	margin: 0 0.3rem;
+}
+
+.text.name {
+    color: mediumslateblue;
+}
+.text.dev {
+    color: royalblue;
+}
+.text.mood {
+    color: coral;
+}
+.text.interest {
+    color: crimson;
+}
+.text.quality {
+    color: lightseagreen;
+}
+.text.trait {
+    color: goldenrod;
+}
+
 
 
 footer {
