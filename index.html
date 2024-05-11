@@ -4,8 +4,72 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio Profile</title>
+
+	<!-- Google Font - Montserrat -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+	<!-- Personal style sheet -->
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	
+	<main>
+		<nav class="navbar">
+			<ul class="menu">
+				<li><i class="fa-solid fa-house"></i><a class="menu-items" href="#"><span>Home</span></a></li> 
+				<li><i class="fa-solid fa-circle-info"></i><a class="menu-items" href="#"><span>About</span></a></li>
+				<li><i class="fa-solid fa-user"></i><a class="menu-items" href="#"><span>Profile</span></a></li>
+				<li><i class="fa-solid fa-images"></i><a class="menu-items" href="#"><span>Projects</span></a></li>
+				<li><i class="fa-solid fa-envelope"></i><a class="menu-items" href="#contact-div"><span>Contact</span></a></li>
+				<li><i class="fa-solid fa-file-pdf"></i><a class="menu-items resume" href="path_to_your_pdf_file.pdf" download="custom_filename.pdf"><span>Resume</span></a></li>
+				<div class="menu-links">
+					<li><span>Follow Me</span></li>
+					<li><a class="menu-items" href="https://www.instagram.com/nikp22" target="_blank"><i class="fab fa-instagram"></i></a></li>
+					<li><a class="menu-items" href="https://github.com/nikpiao-dev" target="_blank"><i class="fab fa-github"></i></a></li>
+					<li><a class="menu-items" href="https://www.linkedin.com/in/nikki-piao/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+				</div>
+			</ul>
+			<button class="menu-btn">
+				<i id="openMenu" class="fa-solid fa-bars bar"></i>
+				<i id="closeMenu" class="fa-solid fa-x bar"></i>
+			</button>
+			<div class="title">
+				<h1>Nikki Piao</h1>
+			</div>
+		</nav>
+		<div class="container">
+			<h2>Hello</h2>
+			<div class="text-animate">
+				<p>I'm</p>
+				<p>
+					<span class="text name">Nik</span>
+					<span class="text dev">a Web Developer</span>
+					<span class="text mood">driven</span>
+					<span class="text interest">excited</span>
+					<span class="text quality">passionate</span>
+					<span class="text trait">resourceful</span>
+				</p>
+			</div>
+			<div class="About"></div>
+			<div class="projects"></div>
+		</div>
+		<footer>
+			<ul class="icons">
+				<!-- Social Media icons from font awesome -->
+				<li><a href="https://www.facebook.com/nik.piao/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+				<li><a href="https://www.instagram.com/nikp22" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://github.com/nikpiao-dev" target="_blank"><i class="fab fa-github"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/nikki-piao/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+			</ul>
+			<p>
+				<small>All Rights Reserved. © 2024 Nikki Piao Official Site.</small>
+			</p>
+		</footer>
+	</main>
+	<script src="app.js"></script>
 </body>
 </html>
