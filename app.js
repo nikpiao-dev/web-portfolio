@@ -23,21 +23,31 @@ menuItems.forEach(menuItem => {
 	menuItem.addEventListener('click', toggleMenu);
 });
 
+
 // Rotating text animation
-document.addEventListener('DOMContentLoaded', function () {
-  const texts = document.querySelectorAll('.text');
-  let currentIndex = 0;
+document.addEventListener('DOMContentLoaded', function() {
+    const texts = document.querySelectorAll('.text');
+    let currentIdx = 0;
 
-  function rotateText() {
-    texts.forEach((text, index) => {
-      if (index === currentIndex) {
-        text.classList.add('active');
-      } else {
-        text.classList.remove('active');
-      }
-    });
-    currentIndex = (currentIndex + 1) % texts.length;
-  }
+    function animateText() {
+        texts.forEach((text, idx) => {
+            if (idx === currentIdx) {
+                text.classList.add('active');
+            } else {
+                text.classList.remove('active');
+            }
+        });
+        currentIdx = (currentIdx + 1) % texts.length;
+    }
 
-  setInterval(rotateText, 2000); // Adjust the rotation speed here (in milliseconds)
+    setInterval(animateText, 2000); // Adjust the animation / rotation speed (in milliseconds)
 });
+
+
+
+
+
+
+
+
+

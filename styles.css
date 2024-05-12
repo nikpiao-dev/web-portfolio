@@ -124,7 +124,7 @@ body {
 
 .menu-links li:hover,
 .menu-links a:hover {
-	color: #7B68EE;
+	color: mediumslateblue;
 	transform: scale(1.25);
 	cursor: pointer;  
 }
@@ -134,6 +134,7 @@ body {
 	border-radius: 50%;
 	color: #fff;
 }
+
 
 /* navbar end */
 
@@ -186,9 +187,21 @@ body {
 .text {
   position: absolute;
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+/*  transition: opacity 0.5s ease-in-out;*/
+transition: opacity 0.5s cubic-bezier(0.6, 0, 0.7, 0.2) ease-in;
+/*  transform: rotateX(90deg);*/
+/*  transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);*/
 }
 
+.text.in {
+	transition: 0.38s ease;
+}
+
+.text.out {
+	transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+}
+
+/* Need for this class for animation to work */
 .text.active {
   opacity: 1;
 }
