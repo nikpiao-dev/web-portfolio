@@ -5,6 +5,15 @@ color: #7B68EE; // MediumSlateBlue
 color: #444; // Midnight Gray
 color: #000; // black
 color: #fff; // white
+
+*/
+
+/* 
+
+------ Font Family ------
+font-style: Montserrat
+font-style: Space Mono
+
 */
  
 * {
@@ -36,10 +45,12 @@ body {
 
 #openMenu {
 	background: transparent;
+	color: #fff;
 }
 
 #closeMenu {
 	display: none;
+	color: #fff;
 }
 .menu-items {
 	text-align: center;
@@ -146,17 +157,26 @@ body {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-/*	justify-content: center;*/
 	align-content: center;
 	gap: 4rem;
 	border: 2px solid mediumslateblue;
+	font-family: "Space Mono", "Montserrat", monospace, sans-serif;
+
+	background-image: url('../portfolio-project/assets/andras-vas-Bd7gNnWJBkU-unsplash.jpg');
+	background-position: 15% 45%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
 }
 
 #about {
 	min-height: 50vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	border: 2px solid cornflowerblue;
+	gap: 5rem;
 }
 
 #project {
@@ -187,18 +207,7 @@ body {
 .text {
   position: absolute;
   opacity: 0;
-/*  transition: opacity 0.5s ease-in-out;*/
-transition: opacity 0.5s cubic-bezier(0.6, 0, 0.7, 0.2) ease-in;
-/*  transform: rotateX(90deg);*/
-/*  transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);*/
-}
-
-.text.in {
-	transition: 0.38s ease;
-}
-
-.text.out {
-	transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+  transition: opacity 0.5s ease-in-out;
 }
 
 /* Need for this class for animation to work */
@@ -230,6 +239,21 @@ transition: opacity 0.5s cubic-bezier(0.6, 0, 0.7, 0.2) ease-in;
 }
 
 
+
+/* About section */
+
+.aboutBtn {
+	padding: 1.6rem 3rem;
+	background: #444;
+	cursor: pointer;
+}
+
+.resume {
+	text-decoration: none;
+	color: #fff;
+}
+
+
 /* footer styles */
 footer {
 	text-align: center;
@@ -243,33 +267,95 @@ footer {
 	color: #fff;
 }
 
-.icons li {
-	display: inline-block;
+.icons {
+	display: none;
 }
 
-.icons a {
-	text-decoration: none;
-	color: #000;
+
+/* Media Query for Tablet and Larger Screens */
+/* Target screens smaller than 801px (or your chosen width) */
+@media (min-width: 801px) {
+  .navbar {
+  	background: #333;
+  }
+
+  .container {
+  	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: static;
+    float: right;
+    transform: none;
+    opacity: 0.7;
+    padding-top: 0.5rem;
+    width: 100%;
+    background: none;
+  }
+
+  /* Hide Hamburger Menu for smaller screens */
+  #openMenu, #closeMenu, .menu-links, .menu-btn {
+    display: none;
+  }
+
+  /* Footer icons display  */
+
+	.icons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.icons li {
+		display: inline-block;
+	}
+
+	.icons a {
+		text-decoration: none;
+		color: #000;
+	}
+
+	.icons a:hover {
+		color: #7B68EE;
+		cursor: pointer;
+	}
+
+	.icons li {
+		list-style: none;
+		display: inline-block;
+	}
+
+	.icons li span {
+	  margin: 0.6rem;
+	  text-align: center;
+	  line-height: 30px;
+	}
+
+	.follow-text {
+	  vertical-align: middle;
+	}
+
+	.follow-text:hover {
+		color: #7B68EE;
+		cursor: pointer;
+	}
+
+	.icons li i {
+		color: #fff;
+		text-decoration: none;
+		margin: 0.4rem;
+		transition: all 0.5s ease-out;
+	}
+
+	.icons li i:hover {
+		color: #7B68EE;
+		transform: scale(2.1);
+		cursor: pointer;
+	}
 }
 
-.icons a:hover {
-	color: #7B68EE;
-	cursor: pointer;
-}
-
-.icons li {
-	list-style: none;
-}
-
-.icons li i {
-	color: #fff;
-	text-decoration: none;
-	margin: 0.4rem;
-	transition: all 0.5s ease-out;
-}
-
-.icons li i:hover {
-	color: #7B68EE;
-	transform: scale(2.1);
-	cursor: pointer;
-}
