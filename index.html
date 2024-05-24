@@ -1,89 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio Profile</title>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Portfolio Profile</title>
 
-	<!-- Google Font - Montserrat -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<!-- Google Font - Montserrat -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet">
 
-	<!-- Google Font Space Mono -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400,700;1,700&display=swap" rel="stylesheet">
+		<!-- Google Font Space Mono -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400,700;1,700&display=swap"
+			rel="stylesheet">
 
-	<!-- Font Awesome CDN -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+		<!-- Font Awesome CDN -->
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-	<!-- Personal style sheet -->
-	<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-	<main>
-		<nav class="navbar">
-			<ul class="menu">
-				<li><i class="fa-solid fa-house"></i><a class="menu-items" href="#"><span>Home</span></a></li> 
-				<li><i class="fa-solid fa-circle-info"></i><a class="menu-items" href="#about"><span>About</span></a></li>
-				<li><i class="fa-solid fa-user"></i><a class="menu-items" href="#"><span>Profile</span></a></li>
-				<li><i class="fa-solid fa-images"></i><a class="menu-items" href="#project"><span>Projects</span></a></li>
-				<li><i class="fa-solid fa-envelope"></i><a class="menu-items" href="#contact"><span>Contact</span></a></li>
-				<li><i class="fa-solid fa-file-pdf"></i><a class="menu-items resume" href="path_to_your_pdf_file.pdf" download="custom_filename.pdf"><span>Resume</span></a></li>
-				<div class="menu-links">
-					<li><span>Follow Me</span></li>
-					<li><a class="menu-items one" href="https://www.facebook.com/nik.piao/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-					<li><a class="menu-items two" href="https://www.instagram.com/nikp22" target="_blank"><i class="fab fa-instagram"></i></a></li>
-					<li><a class="menu-items three" href="https://github.com/nikpiao-dev" target="_blank"><i class="fab fa-github"></i></a></li>
-					<li><a class="menu-items four" href="https://www.linkedin.com/in/nikki-piao/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+		<!-- Personal style sheet -->
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<main>
+			<nav class="navbar">
+				<ul class="menu">
+					<li><i class="fa-solid fa-house"></i><a class="menu-items"
+							href="#"><span>Home</span></a></li>
+					<li><i class="fa-solid fa-circle-info"></i><a class="menu-items"
+							href="#about"><span>About</span></a></li>
+					<li><i class="fa-solid fa-user"></i><a class="menu-items"
+							href="#"><span>Profile</span></a></li>
+					<li><i class="fa-solid fa-images"></i><a class="menu-items"
+							href="#project"><span>Projects</span></a></li>
+					<li><i class="fa-solid fa-envelope"></i><a class="menu-items"
+							href="#contact"><span>Contact</span></a></li>
+					<li><i class="fa-solid fa-file-pdf"></i><a class="menu-items resume"
+							href="path_to_your_pdf_file.pdf"
+							download="custom_filename.pdf"><span>Resume</span></a></li>
+					<div class="menu-links">
+						<li><span>Follow Me</span></li>
+						<li><a class="menu-items one" href="https://www.facebook.com/nik.piao/"
+								target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+						<li><a class="menu-items two" href="https://www.instagram.com/nikp22"
+								target="_blank"><i class="fab fa-instagram"></i></a></li>
+						<li><a class="menu-items three" href="https://github.com/nikpiao-dev"
+								target="_blank"><i class="fab fa-github"></i></a></li>
+						<li><a class="menu-items four"
+								href="https://www.linkedin.com/in/nikki-piao/" target="_blank"><i
+									class="fab fa-linkedin"></i></a></li>
+					</div>
+				</ul>
+				<button class="menu-btn model-2">
+					<i id="openMenu" class="fa-solid fa-bars bar"></i>
+					<i id="closeMenu" class="fa-solid fa-x bar"></i>
+				</button>
+			</nav>
+			<div class="container">
+				<div class="text-animate">
+					<h1>Hello,</h1>
+					<h2 class="glitch" data-text="My name is Nikki Piao">My name is Nikki
+						Piao</h2>
+					<p class="animate-text">
+						<span class="word">I'm</span>
+						<span class="text dev">a web developer</span>
+						<span class="text mood">driven</span>
+						<span class="text interest">excited</span>
+						<span class="text quality">passionate</span>
+						<span class="text trait">resourceful</span>
+						<span class="text skill">creative</span>
+						<span class="text approach">innovative</span>
+						<span class="text strength">determined</span>
+						<span class="text talent">skilled</span>
+						<span class="text vision">forward-thinking</span>
+						<span class="text goal">goal-oriented</span>
+						<span class="text attitude">positive</span>
+						<span class="text knowledge">knowledgeable</span>
+						<span class="text dedication">dedicated</span>
+					</p>
 				</div>
-			</ul>
-			<button class="menu-btn model-2">
-				<i id="openMenu" class="fa-solid fa-bars bar"></i>
-				<i id="closeMenu" class="fa-solid fa-x bar"></i>
-			</button>
-		</nav>
-		<div class="container">
-			<div class="text-animate">
-				<h1>Hello,</h1>
-				<p>
-					<span class="word">I'm</span>
-					<span class="text name">Nikki Piao</span>
-					<span class="text dev">a web developer</span>
-					<span class="text mood">driven</span>
-					<span class="text interest">excited</span>
-					<span class="text quality">passionate</span>
-					<span class="text trait">resourceful</span>
-				</p>
 			</div>
-		</div>
-		<div id="about">
-			<h2>About Me</h2>
-			<button class="aboutBtn"><a class="resume" href="path_to_your_pdf_file.pdf" download="custom_filename.pdf">Download Resume</button>
-		</div>
-		<div id="project">
-			<h2>Projects</h2>
-		</div>
-		<div id="contact">
-			<h2>Reach Out</h2>
-		</div>
-	</div>
-	<footer>
-		<ul class="icons">
-			<li><span class="follow-text">Follow Me</span></li>
+			<div id="about">
+				<h2>About Me</h2>
+				<button class="aboutBtn"><a class="resume" href="path_to_your_pdf_file.pdf"
+						download="custom_filename.pdf">Download Resume</button>
+				</div>
+				<div id="project">
+					<h2>Projects</h2>
+				</div>
+				<div id="contact">
+					<h2>Reach Out</h2>
+				</div>
+			</div>
+			<footer>
+				<ul class="icons">
+					<li><span class="follow-text">Follow Me</span></li>
 
-			<!-- Social Media icons from font awesome -->
-			<li><a href="https://www.facebook.com/nik.piao/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-			<li><a href="https://www.instagram.com/nikp22" target="_blank"><i class="fab fa-instagram"></i></a></li>
-			<li><a href="https://github.com/nikpiao-dev" target="_blank"><i class="fab fa-github"></i></a></li>
-			<li><a href="https://www.linkedin.com/in/nikki-piao/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-		</ul>
-		<p>
-			<small>All Rights Reserved. © 2024 Nikki Piao Official Site.</small>
-		</p>
-	</footer>
-</main>
-<script src="app.js"></script>
-</body>
+					<!-- Social Media icons from font awesome -->
+					<li><a href="https://www.facebook.com/nik.piao/" target="_blank"><i
+								class="fa-brands fa-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com/nikp22" target="_blank"><i
+								class="fab fa-instagram"></i></a></li>
+					<li><a href="https://github.com/nikpiao-dev" target="_blank"><i
+								class="fab fa-github"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/nikki-piao/" target="_blank"><i
+								class="fab fa-linkedin"></i></a></li>
+				</ul>
+				<p class="footer">
+					<small>All Rights Reserved. © 2024 Nikki Piao Official
+						Site.</small>
+				</p>
+			</footer>
+		</main>
+		<script src="app.js"></script>
+	</body>
 </html>
