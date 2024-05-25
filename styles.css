@@ -393,10 +393,49 @@ h1, h2, .animate-text{
 }
 
 #project {
-	min-height: 100vh;
+	min-height: 150vh;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 	border: 2px solid coral;
+}
+
+.portfolio {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	border: 2px solid royalblue;
+}
+
+#project h2 {
+	font-size: 1.4rem;
+}
+
+.project-link a {
+	text-decoration: none;
+	color: #D3D9D4;
+}
+
+.portfolio .item h4 {
+	font-size: 0.8rem;
+}
+.portfolio .item {
+	width: 70%;
+	text-align: center;
+	letter-spacing: 0.125rem;
+	margin: 0.8rem;
+	border: 2px solid mediumaquamarine;
+}
+
+
+.portfolio img {
+	width: 250px;
+	height: 150px;
+	border-radius: 8px;
+	border: 2px solid #1F2833;
+	box-shadow: #6494edc9 0px 2px 4px, #6494ed97 0px 7px 13px -3px, #6494ed5d 0px -3px 0px inset;
 }
 
 .word {
@@ -450,7 +489,7 @@ h1, h2, .animate-text{
 	color: mediumseagreen;
 }
 .text.talent {
-	color: palevioletred;
+	color: steelblue;
 }
 .text.vision {
 	color: plum;
@@ -459,7 +498,7 @@ h1, h2, .animate-text{
 	color: lightsalmon;
 }
 .text.attitude {
-	color: maroon;
+	color: firebrick;
 }
 .text.knowledge {
 	color: cornflowerblue;
@@ -521,6 +560,12 @@ footer {
   .glitch {
 	margin: auto 2rem;
 	text-align: center;
+  }
+
+  #social {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
   }
 
   .menu {
