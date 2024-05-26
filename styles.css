@@ -658,35 +658,27 @@ footer {
 	}
 }
 
-/* Media query for smaller screens */
+/* Media query for smaller screens or mobile versions */
 @media only screen and (max-width: 427px) {
-    /* Add styles specific to screens smaller than 427px */
-    /* Override styles defined above for larger screens */
-    
     .glitch {
-        font-size: 1em; /* Adjust glitch font size */
+        font-size: 1.1em; 
     }
 
     .section p {
-        font-size: 0.6rem; /* Adjust section paragraph font size */
+        font-size: 0.6rem;
     }
 
     .project-link a {
-        font-size: 0.7rem; /* Adjust project link font size */
+        font-size: 0.7rem; 
     }
 
     .follow-text {
-        font-size: 0.4rem; /* Adjust follow text font size */
+        font-size: 0.4rem; 
     }
 
 	.social-links {
 		display: flex;
 		border: none;
 		outline: none;
-	}
-
-	.glitch {
-		border: transparent;
-		outline: transparent;
 	}
 }
