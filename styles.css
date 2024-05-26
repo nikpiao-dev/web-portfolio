@@ -655,7 +655,7 @@ footer {
 }
 
 /* Media query for smaller screens or mobile versions */
-@media only screen and (max-width: 460px) and (max-width: 500px) {
+@media only screen and (max-width: 425px) and (max-width: 712px) {
 	* {
 		overflow: auto;
 	}
@@ -684,6 +684,7 @@ footer {
 
 	.social-links  {
 		display: block;
-		font-size: 1.2rem;
+		width: 150px;
+		overflow: hidden;
 	}
 }
