@@ -398,7 +398,8 @@ h1, h2, .animate-text{
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	border: 2px solid coral;
+	margin-top: 2rem;
+	/* border: 2px solid coral; */
 }
 
 .portfolio {
@@ -406,7 +407,6 @@ h1, h2, .animate-text{
 	flex-flow: row wrap;
 	justify-content: space-around;
 	align-items: center;
-	border: 2px solid royalblue;
 }
 
 #project h2 {
@@ -426,7 +426,11 @@ h1, h2, .animate-text{
 	text-align: center;
 	letter-spacing: 0.125rem;
 	margin: 0.8rem;
-	border: 2px solid mediumaquamarine;
+	/* border: 2px solid mediumaquamarine; */
+}
+
+.portfolio:last-child {
+	margin-bottom: 2rem;
 }
 
 
@@ -519,7 +523,7 @@ footer {
 	font-size: 0.8rem;
 	bottom: 0;
 	background: #040F16;
-	border: none;
+	border-top: 2px solid #1F2833;
 	border-radius: 0 0 0.2em 0.2em;
 	color: #fff;
 }
@@ -547,6 +551,7 @@ footer {
 @media only screen and (min-width: 801px) {
   .navbar {
   	background: #040F16;
+	border-bottom: 2px solid #1F2833;
   }
 
   .container {
