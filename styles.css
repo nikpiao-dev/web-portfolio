@@ -16,7 +16,6 @@ color: #040F16; rich black
 /* 
 
 ------ Font Family ------
-font-style: Montserrat
 font-style: Space Mono
 
 */
@@ -29,7 +28,7 @@ font-style: Space Mono
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "Space Mono", "Montserrat", sans-serif;
+	font-family: "Space Mono", sans-serif;
 	font-size: 10px;
 	background-color: #040F16;
 	color: #D3D9D4;
