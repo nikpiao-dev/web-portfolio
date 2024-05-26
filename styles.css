@@ -209,7 +209,6 @@ h1, h2, .animate-text{
 	z-index: 100;
 	top: 1rem;
 	right: 1rem;
-	/* padding: 4px; */
 	background: none;
 	cursor: pointer;
 	border: none;
@@ -217,7 +216,6 @@ h1, h2, .animate-text{
 
 #openMenu {
 	background: transparent;
-	/* color: #fff; */
 	color: #D3D9D4;
 }
 
