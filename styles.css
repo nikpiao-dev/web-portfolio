@@ -681,5 +681,12 @@ footer {
 
 	.social-links {
 		display: flex;
+		border: none;
+		outline: none;
+	}
+
+	.glitch {
+		border: transparent;
+		outline: transparent;
 	}
 }
