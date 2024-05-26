@@ -1,4 +1,4 @@
-# portfolio-project
+# web-portfolio
 
 Portfolio Project
 
