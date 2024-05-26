@@ -333,7 +333,6 @@ h1, h2, .animate-text{
 	font-family: "Space Mono", "Montserrat", monospace, sans-serif;
 	color: #D3D9D4;
 	line-height: 4.5rem;
-	/* border: 2px solid mediumslateblue; */
 }
 
 .glitch {
@@ -656,9 +655,19 @@ footer {
 }
 
 /* Media query for smaller screens or mobile versions */
-@media only screen and (max-width: 427px) {
+@media only screen and (max-width: 460px) and (max-width: 500px) {
+	* {
+		overflow: auto;
+	}
+	.container {
+		overflow: hidden;
+	}
+	.navbar {
+		border: none;
+	}
     .glitch {
         font-size: 1.1em; 
+		overflow: hidden;
     }
 
     .section p {
@@ -673,9 +682,8 @@ footer {
         font-size: 0.4rem; 
     }
 
-	.social-links {
-		display: flex;
-		border: none;
-		outline: none;
+	.social-links  {
+		display: block;
+		font-size: 1.2rem;
 	}
 }
