@@ -654,8 +654,8 @@ footer {
 	}
 }
 
-/* Media query for smaller screens or mobile versions */
-@media only screen and (max-width: 425px) and (max-width: 712px) {
+/* Media query for mobile screens (up to 424px) */
+@media only screen and (max-width: 424px) {
 	* {
 		overflow: auto;
 	}
@@ -670,21 +670,77 @@ footer {
 		overflow: hidden;
     }
 
+	.text-animate {
+		overflow: hidden;
+		border: none;
+	}
+
+	.section:last-child {
+		margin-bottom: 4.5rem;
+	}
+
     .section p {
-        font-size: 0.6rem;
+        font-size: 0.75rem;
     }
 
     .project-link a {
-        font-size: 0.7rem; 
+        font-size: 0.9rem; 
     }
+
+	.portfolio p {
+		font-size: 0.9rem;
+	}
 
     .follow-text {
         font-size: 0.4rem; 
     }
 
 	.social-links  {
-		display: block;
-		width: 150px;
+		display: flex;
 		overflow: hidden;
 	}
+
+	.social-links li {
+		overflow: hidden;
+	}
+
+	/* .social-links .menu-items {
+		overflow: none;
+	} */
+}
+
+/* Media query for tablet screens (425px to 711px) */
+@media only screen and (min-width: 425px) and (max-width: 711px) {
+	* {
+		overflow: auto;
+	}
+	.container {
+		overflow: hidden;
+	}
+	.navbar {
+		border: none;
+	}
+    .glitch {
+        font-size: 1.3em; 
+		overflow: hidden;
+    }
+
+    .section p {
+        font-size: 0.8rem;
+    }
+
+    .project-link a {
+        font-size: 0.9rem; 
+    }
+
+    .follow-text {
+        font-size: 0.6rem; 
+    }
+
+	.social-links  {
+		display: block;
+		width: 200px;
+		overflow: hidden;
+	}
+
 }
