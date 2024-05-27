@@ -726,21 +726,32 @@ footer {
     }
 
     .section p {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
     }
 
     .project-link a {
-        font-size: 0.9rem; 
+        font-size: 1.2rem; 
     }
+
+	.portfolio p {
+		font-size: 0.9rem;
+	}
 
     .follow-text {
         font-size: 0.6rem; 
     }
 
 	.social-links  {
-		display: block;
-		width: 200px;
+		display: flex;
 		overflow: hidden;
 	}
 
+	.social-links li {
+		overflow: hidden;
+	}
+
+	.text-animate {
+		overflow: hidden;
+		border: none;
+	}
 }
