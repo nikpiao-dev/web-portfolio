@@ -258,7 +258,12 @@ h1, h2, .animate-text{
 .menu span,
 .menu li i  {
 	display: block;
-	font-size: 0.8rem;
+	font-size: 1.1rem;
+}
+
+.menu span,
+.menu li i:first-child {
+	margin-top: 0.8rem;
 }
 
 .menu {
@@ -289,7 +294,7 @@ h1, h2, .animate-text{
 
 .menu-links li {
 	display: inline-block;
-	margin-right: 0.5rem; /* Adjust margin */
+	margin-right: 0.5rem;
 }
 
 .menu-links li > a {
@@ -704,9 +709,9 @@ footer {
 		overflow: hidden;
 	}
 
-	/* .social-links .menu-items {
-		overflow: none;
-	} */
+	#social li {
+		overflow: hidden;
+	}
 }
 
 /* Media query for tablet screens (425px to 711px) */
@@ -726,11 +731,11 @@ footer {
     }
 
     .section p {
-        font-size: 0.85rem;
+        font-size: 0.75rem;
     }
 
     .project-link a {
-        font-size: 1.2rem; 
+        font-size: 0.9rem; 
     }
 
 	.portfolio p {
@@ -753,5 +758,17 @@ footer {
 	.text-animate {
 		overflow: hidden;
 		border: none;
+	}
+
+	.text-animate h1 {
+		margin-top: 3.5rem;
+	}
+
+	.section:last-child {
+		margin-bottom: 4.5rem;
+	}
+
+	#social li {
+		overflow: hidden;
 	}
 }
