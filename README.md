@@ -15,6 +15,11 @@ Dynamic Content: Content such as projects and skills are dynamically generated t
 HTML, CSS, JavaScript: Utilizes the fundamentals of web development including HTML for structure, CSS for styling, and JavaScript for interactivity.
 
 
+Notes:
+
+The "Exports" folder houses both a Python file named "quotes.py" and a JSON file named "quotes.json." Quotes are manually inputted within the Python file and subsequently converted into JSON format.
+
+
 To run this project locally:
 
 Clone this repository to your local machine.
