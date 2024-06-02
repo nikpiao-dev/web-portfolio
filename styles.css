@@ -777,7 +777,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1500px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
   .navbar {
   	background: #040F16;
 	border-bottom: 2px solid #1F2833;
@@ -810,7 +810,7 @@ footer {
 	width: 50%;
 	display: block;
 	position: relative;
-	left: -16rem;
+	left: -15rem;
 	top: 40rem;
 	margin: 2rem;
 	overflow: hidden;
@@ -977,7 +977,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1250px) and (max-width: 1920px) {
 	.container {
 	display: flex;
 	flex-direction: column;
@@ -998,7 +998,7 @@ footer {
 	width: 50%;
 	display: block;
 	position: relative;
-	left: -20rem;
+	left: -23rem;
 	top: 40rem;
 	margin: 2rem;
 	overflow: hidden;
@@ -1007,11 +1007,10 @@ footer {
   
   #about {
 	position: relative;
-	left: 25rem;
+	left: 21rem;
 	top: -15rem;
 	width: 50%;
   }
-
 
   #about p {
 	margin-bottom: 1.2rem;
