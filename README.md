@@ -15,6 +15,22 @@ Dynamic Content: Content such as projects and skills are dynamically generated t
 HTML, CSS, JavaScript: Utilizes the fundamentals of web development including HTML for structure, CSS for styling, and JavaScript for interactivity.
 
 
+#Content Attribution:
+
+This repository contains a curated collection of public domain quotes sourced from TheGoldenQuotes.net.
+
+These quotes are provided freely and can be used without any restrictions.
+
+"I would like to extend my thanks to TheGoldenQuotes.net for their dedication in curating and sharing these public domain quotes."
+
+Source: [TheGoldenQuotes.net](https://www.thegoldenquotes.net/)
+
+
+Notes:
+
+The "Exports" folder houses both a Python file named "quotes.py" and a JSON file named "quotes.json." Quotes are manually inputted within the Python file and subsequently converted into JSON format.
+
+
 To run this project locally:
 
 Clone this repository to your local machine.
