@@ -12,6 +12,13 @@
 			href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400,700;1,700&display=swap"
 			rel="stylesheet">
 
+		<!-- Google Font Montserrat -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet">
+
 		<!-- Font Awesome CDN -->
 		<link rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -20,40 +27,40 @@
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
+		<nav class="navbar">
+			<ul class="menu">
+				<li><i class="fa-solid fa-house"></i><a class="menu-items"
+						href="./index.html"><span>Home</span></a></li>
+				<li><i class="fa-solid fa-circle-info"></i><a class="menu-items"
+						href="#about"><span>About</span></a></li>
+				<li><i class="fa-solid fa-images"></i><a class="menu-items"
+						href="#project"><span>Projects</span></a></li>
+				<li><i class="fa-solid fa-envelope"></i><a class="menu-items"
+						href="#contactMe"><span>Contact</span></a></li>
+				<li><i class="fa-solid fa-file-pdf"></i><a class="menu-items resume"
+						href="../web-portfolio/assets/Piao_Nikki_Resume2024.pdf"
+						download="Piao_Nikki_Resume2024.pdf"><span>Resume</span></a></li>
+				<div class="menu-links">
+					<li><a href="#social"
+							style="text-decoration: none; border: none; transform: none;"><span>Follow
+								Me</span></a></li>
+					<li><a class="menu-items one" href="https://www.facebook.com/nik.piao/"
+							target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+					<li><a class="menu-items two" href="https://www.instagram.com/nikp22"
+							target="_blank"><i class="fab fa-instagram"></i></a></li>
+					<li><a class="menu-items three" href="https://github.com/nikpiao-dev"
+							target="_blank"><i class="fab fa-github"></i></a></li>
+					<li><a class="menu-items four"
+							href="https://www.linkedin.com/in/nikki-piao/" target="_blank"><i
+								class="fab fa-linkedin"></i></a></li>
+				</div>
+			</ul>
+			<button class="menu-btn model-2">
+				<i id="openMenu" class="fa-solid fa-bars bar"></i>
+				<i id="closeMenu" class="fa-solid fa-x bar"></i>
+			</button>
+		</nav>
 		<main>
-			<nav class="navbar">
-				<ul class="menu">
-					<li><i class="fa-solid fa-house"></i><a class="menu-items"
-							href="#"><span>Home</span></a></li>
-					<li><i class="fa-solid fa-circle-info"></i><a class="menu-items"
-							href="#about"><span>About</span></a></li>
-					<li><i class="fa-solid fa-images"></i><a class="menu-items"
-							href="#project"><span>Projects</span></a></li>
-					<li><i class="fa-solid fa-envelope"></i><a class="menu-items"
-							href="#contactMe"><span>Contact</span></a></li>
-					<li><i class="fa-solid fa-file-pdf"></i><a class="menu-items resume"
-							href="../web-portfolio/assets/Piao_Nikki_Resume2024.pdf"
-							download="Piao_Nikki_Resume2024.pdf"><span>Resume</span></a></li>
-					<div class="menu-links">
-						<li><a href="#social"
-								style="text-decoration: none; border: none; transform: none;"><span>Follow
-									Me</span></a></li>
-						<li><a class="menu-items one" href="https://www.facebook.com/nik.piao/"
-								target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-						<li><a class="menu-items two" href="https://www.instagram.com/nikp22"
-								target="_blank"><i class="fab fa-instagram"></i></a></li>
-						<li><a class="menu-items three" href="https://github.com/nikpiao-dev"
-								target="_blank"><i class="fab fa-github"></i></a></li>
-						<li><a class="menu-items four"
-								href="https://www.linkedin.com/in/nikki-piao/" target="_blank"><i
-									class="fab fa-linkedin"></i></a></li>
-					</div>
-				</ul>
-				<button class="menu-btn model-2">
-					<i id="openMenu" class="fa-solid fa-bars bar"></i>
-					<i id="closeMenu" class="fa-solid fa-x bar"></i>
-				</button>
-			</nav>
 			<div class="container">
 				<div class="text-animate">
 					<h1>Hello,</h1>
@@ -89,25 +96,34 @@
 					</ul>
 				</div>
 			</div>
+			<div id="quotes">
+				<p id="message"></p>
+				<h4 id="author"></h4>
+			</div>
 			<div id="about">
 				<div class="section">
 					<h2>About Me</h2>
+
 					<p>Meet <strong>Nikki Piao</strong>, also known as <em>Nik</em>, an
 						aspiring
 						junior developer hailing from Clearwater, Florida. I boast a diverse
 						background in <strong>Hospitality and Tourism Industry.</strong>
 					</p>
-					<p>Recently, I had successfully completed a rigorous<strong> Full Stack
-							Intensive Development Bootcamp</strong> called <a class="wcoding"
-							href="https://www.wcoding.com"><em>wcoding</em></a> in Seoul,
-						South Korea.
-					</p>
-					<p>Proficient in HTML5, CSS3, JavaScript, <strong>Python, and SQL</strong>,
-						I played a vital
-						role and contributed to various group projects, including MedKorea and
-						Ninagara, during my time at wcoding.
-						My expertise lies in backend operations and responsive design.
-					</p>
+
+					<p>
+						I hold a <strong>B.S. in Hospitality Management</strong> from the
+						University of Central Florida. I also studied abroad at the <em>School of
+							Hotel and Tourism Management(SHTM)</em> in Hong Kong and gained valuable
+						experience working at <em>The Ritz-Carlton, Kyoto</em> in Japan.</p>
+
+					<p>I recently completed a rigorous Full Stack Intensive Development
+						Bootcamp called <a class="wcoding"
+							href="https://www.wcoding.com"><em>wcoding</em></a> in Seoul, South
+						Korea. With a solid foundation in <strong>HTML5, CSS3, JavaScript, Python,
+							and
+							SQL,</strong> My
+						strengths lie in backend operations and responsive design.</p>
+
 					<p>Currently, I am actively broadening my skills in <strong>React, MongoDB,
 							PHP, and Bootstrap.</strong> With a passion for problem-solving and an
 						eagerness to learn, I am poised to excel in dynamic team environments
@@ -175,28 +191,29 @@
 					</div>
 				</div>
 			</div>
-			<footer>
-				<ul class="icons">
-					<li><span class="follow-text">Follow Me</span></li>
-
-					<!-- Social Media icons from font awesome -->
-					<li><a href="https://www.facebook.com/nik.piao/" target="_blank"><i
-								class="fa-brands fa-facebook"></i></a></li>
-					<li><a href="https://www.instagram.com/nikp22" target="_blank"><i
-								class="fab fa-instagram"></i></a></li>
-					<li><a href="https://github.com/nikpiao-dev" target="_blank"><i
-								class="fab fa-github"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/nikki-piao/" target="_blank"><i
-								class="fab fa-linkedin"></i></a></li>
-				</ul>
-				<p class="footer">
-					<p id="contactMe">Reach out and connect with me via email at
-						<span class="email"><strong>nik.piao26@gmail.com</strong></span></p>
-					<small>All Rights Reserved. © 2024 Nikki Piao Official
-						Site.</small>
-				</p>
-			</footer>
 		</main>
+		<footer>
+			<ul class="icons">
+				<li><span class="follow-text">Follow Me</span></li>
+
+				<!-- Social Media icons from font awesome -->
+				<li><a href="https://www.facebook.com/nik.piao/" target="_blank"><i
+							class="fa-brands fa-facebook"></i></a></li>
+				<li><a href="https://www.instagram.com/nikp22" target="_blank"><i
+							class="fab fa-instagram"></i></a></li>
+				<li><a href="https://github.com/nikpiao-dev" target="_blank"><i
+							class="fab fa-github"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/nikki-piao/" target="_blank"><i
+							class="fab fa-linkedin"></i></a></li>
+			</ul>
+			<p class="footer">
+				<p id="contactMe">Reach out and connect with me via email at
+					<span class="email"><a
+							href="mailto:nik.piao26@gmail.com"><strong>nik.piao26@gmail.com</strong></a></span></p>
+				<small>All Rights Reserved. © 2024 Nikki Piao Official
+					Site.</small>
+			</p>
+		</footer>
 		<script src="app.js"></script>
 	</body>
 </html>

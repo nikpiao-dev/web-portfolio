@@ -335,7 +335,7 @@ h1, h2, .animate-text{
 	flex-direction: column;
 	align-content: center;
 	gap: 5rem;
-	font-family: "Space Mono", "Montserrat", monospace, sans-serif;
+	font-family: "Space Mono", monospace, sans-serif;
 	color: #D3D9D4;
 	line-height: 4.5rem;
 }
@@ -359,8 +359,23 @@ h1, h2, .animate-text{
 	cursor: pointer;
 }
 
+/* Quotes and message styles */
+#quotes {
+	min-height: 30vh;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.4rem;
+	margin-bottom: 5rem;
+	padding: 2.5rem;
+	color: #D3D9D4;
+}
+
+/* End quotes and message styles */
+
 #about {
-	min-height: 80vh;
+	min-height: 90vh;
 	display: flex;
 	font-family: "Montserrat", monospace, sans-serif;
 	flex-direction: column;
@@ -374,9 +389,10 @@ h1, h2, .animate-text{
 	justify-content: space-around;
 	align-items: center;
 	width: 90%;
-	height: 600px;
+	height: 800px;
 	letter-spacing: 0.1rem;
-	text-align: center;
+	text-align: left;
+	line-height: 20px;
 }
 
 .section h2 {
@@ -384,8 +400,17 @@ h1, h2, .animate-text{
 }
 
 .section p {
-	font-size: 0.7rem;
+	font-size: 0.9rem;
 	margin: 0.7rem;
+}
+
+.email a {
+	color: #D3D9D4;
+	text-decoration: none;
+}
+
+.email a:hover {
+	color: #6495ED;
 }
 
 .wcoding {
@@ -417,6 +442,11 @@ h1, h2, .animate-text{
 .project-link a {
 	text-decoration: none;
 	color: #D3D9D4;
+}
+
+.portfolio p {
+	margin-top: 1.2rem;
+	text-align: left;
 }
 
 .portfolio .item h4 {
@@ -554,18 +584,82 @@ footer {
   	background: #040F16;
 	border-bottom: 2px solid #1F2833;
   }
+  main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+  }
 
   .container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	line-height: 6rem;
+	/* line-height: 6rem; */
+	position: absolute;
+	left: 0;
+	top: 3rem;
+	width: 50%;
+	overflow: hidden;
   }
+  
+  .social-links li {
+	font-size: 1.4rem;
+  }
+
+  #quotes {
+	width: 50%;
+	display: block;
+	position: relative;
+	left: -12rem;
+	top: 42rem;
+	margin: 2rem;
+	overflow: hidden;
+	font-size: 1.2rem;
+  }
+  
+  #about {
+	position: relative;
+	left: 13.5rem;
+	top: -15.5rem;
+	width: 50%;
+  }
+
+
+  #about h2 {
+	overflow: hidden;
+  }
+
+  #project {
+	position: relative;
+	top: -8rem;
+  }
+
+  #project h2 {
+	font-size: 2.1rem;
+	letter-spacing: 0.2rem;
+  }
+
+  .portfolio {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+	margin: 1.3rem;
+	overflow: hidden;
+  }
+
+  .portfolio .item {
+	width: 100%;
+	padding: 2rem;
+  }
+
 
   .glitch {
 	margin: auto 2rem;
 	text-align: center;
+	overflow: hidden;
   }
 
   #social {
@@ -657,6 +751,305 @@ footer {
 	.icons li:last-child a {
 		margin-right: 2rem;
 	}
+
+	#about h2, #project h2 {
+		font-size: 1.7rem;
+	}
+
+	#project h4 {
+		font-size: 1.3rem;
+	}
+
+	#project p {
+		font-size: 1.1rem;
+	}
+
+	.follow-text {
+		font-size: 1.2rem;
+	}
+	.icons li i {
+		font-size: 1.1rem;
+	}
+
+	#contactMe {
+		font-size: 1.1rem;
+	}
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
+  .navbar {
+  	background: #040F16;
+	border-bottom: 2px solid #1F2833;
+  }
+  main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+  }
+
+  .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 4rem;
+	position: absolute;
+	left: 0;
+	width: 50%;
+	overflow: hidden;
+  }
+  
+  .social-links li {
+	font-size: 1.4rem;
+  }
+
+  #quotes {
+	width: 50%;
+	display: block;
+	position: relative;
+	left: -16rem;
+	top: 40rem;
+	margin: 2rem;
+	overflow: hidden;
+	font-size: 1.2rem;
+  }
+  
+  #about {
+	position: relative;
+	left: 17rem;
+	top: -15rem;
+	width: 50%;
+  }
+
+  #about h2 {
+	overflow: hidden;
+  }
+
+  #project {
+	position: relative;
+	top: -2rem;
+  }
+
+  #project h2 {
+	font-size: 2.1rem;
+	letter-spacing: 0.2rem;
+  }
+
+  .portfolio {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+	margin: 1.2rem;
+	overflow: hidden;
+  }
+
+  .portfolio .item {
+	width: 100%;
+	padding: 5rem;
+  }
+
+   .portfolio img {
+	width: 300px;
+	height: 200px;
+  }
+
+  .glitch {
+	margin: auto 2rem;
+	text-align: center;
+	overflow: hidden;
+  }
+
+  #social {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: static;
+    float: right;
+    transform: none;
+	gap: 0.8rem;
+    opacity: 0.7;
+    padding-top: 0.5rem;
+    width: 100%;
+    background: none;
+  }
+  .menu .menu-items:hover {
+	color: #6495ED;
+  }
+
+  .menu li i {
+	display: none;
+  }
+  /* Hide Hamburger Menu for smaller screens */
+  #openMenu, #closeMenu, .menu-links, .menu-btn {
+    display: none;
+  }
+
+  /* Footer icons display  */
+
+	.icons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.icons li {
+		display: inline-block;
+	}
+
+	.icons a {
+		text-decoration: none;
+		color: #D3D9D4;
+	}
+
+	.icons a:hover {
+		color: #6495ED;
+		cursor: pointer;
+	}
+
+	.icons li {
+		list-style: none;
+		display: inline-block;
+	}
+
+	.icons li span {
+	  margin: 0.6rem;
+	  text-align: center;
+	  line-height: 30px;
+	}
+
+	.follow-text {
+	  vertical-align: middle;
+	}
+
+	.follow-text:hover {
+		color: #6495ED;
+		cursor: pointer;
+	}
+
+	.icons li i {
+		color: #D3D9D4;
+		text-decoration: none;
+		margin: 0.4rem;
+		transition: all 0.5s ease-out;
+	}
+
+	.icons li i:hover {
+		color: #6495ED;
+		transform: scale(2.1);
+		cursor: pointer;
+	}
+
+	.icons li:last-child a {
+		margin-right: 2rem;
+	}
+
+	#about h2, #project h2 {
+		font-size: 1.7rem;
+	}
+
+	#project h4 {
+		font-size: 1.3rem;
+	}
+
+	#project p {
+		font-size: 1.1rem;
+	}
+
+	.follow-text {
+		font-size: 1.2rem;
+	}
+	.icons li i {
+		font-size: 1.1rem;
+	}
+
+	#contactMe {
+		font-size: 1.1rem;
+	}
+
+}
+
+@media only screen and (min-width: 1500px) {
+	.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 4rem;
+	position: absolute;
+	left: 0;
+	width: 45%;
+	overflow: hidden;
+  }
+
+  .social-links li {
+	font-size: 1.4rem;
+  }
+
+ #quotes {
+	width: 50%;
+	display: block;
+	position: relative;
+	left: -20rem;
+	top: 40rem;
+	margin: 2rem;
+	overflow: hidden;
+	font-size: 1.2rem;
+  }
+  
+  #about {
+	position: relative;
+	left: 25rem;
+	top: -15rem;
+	width: 50%;
+  }
+
+
+  #about p {
+	margin-bottom: 1.2rem;
+	padding: 1.5rem;
+  }
+
+  #about h2 {
+	overflow: hidden;
+  }
+
+  #project {
+	position: relative;
+	top: -2rem;
+  }
+
+  #project h2 {
+	font-size: 2.1rem;
+	letter-spacing: 0.2rem;
+  }
+
+  .portfolio {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+	margin: 1.2rem;
+	overflow: hidden;
+  }
+
+  .portfolio img {
+	width: 300px;
+	height: 200px;
+  }
+
+  .portfolio .item {
+	width: 100%;
+	padding: 5rem;
+  }
+
 }
 
 /* Media query for mobile screens (up to 424px) */
@@ -711,7 +1104,7 @@ footer {
 
 	#social li {
 		overflow: hidden;
-	}
+	}	
 }
 
 /* Media query for tablet screens (425px to 711px) */
@@ -730,8 +1123,11 @@ footer {
 		overflow: hidden;
     }
 
+	.section h2 {
+		overflow: hidden;
+	}
     .section p {
-        font-size: 0.75rem;
+        font-size: 0.9rem;
     }
 
     .project-link a {
@@ -742,8 +1138,16 @@ footer {
 		font-size: 0.9rem;
 	}
 
+	.project-link {
+		font-size: 1.2rem;
+	}
+
+	#author {
+		font-size: 1.1rem;
+	}
+
     .follow-text {
-        font-size: 0.6rem; 
+        font-size: 0.5rem; 
     }
 
 	.social-links  {
@@ -770,5 +1174,13 @@ footer {
 
 	#social li {
 		overflow: hidden;
+	}
+	#quotes {
+		min-width: 25vh;
+		padding: 3rem;
+	}
+
+	#social li i {
+		font-size: 1.4rem;
 	}
 }

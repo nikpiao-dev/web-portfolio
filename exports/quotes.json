@@ -1,207 +1,174 @@
 [
     {
         "id": "1",
-        "author": "Confucius",
-        "quotes": "It does not matter how slowly you go as long as you do not stop.",
-        "type": "Motivational"
+        "author": "Abraham Lincoln",
+        "quotes": "You cannot escape the responsibility of tomorrow by evading it today."
     },
     {
         "id": "2",
-        "author": "Nelson Mandela",
-        "quotes": "It always seems impossible until it's done.",
-        "type": "Motivational"
+        "author": "Edgar Allan Poe",
+        "quotes": "Believe nothing you hear and only one half that you see."
     },
     {
         "id": "3",
-        "author": "Winston Churchill",
-        "quotes": "If you're going through hell, keep going.",
-        "type": "Motivational"
+        "author": "William Wordsworth",
+        "quotes": "The flower that smells the sweetest is shy and lowly."
     },
     {
         "id": "4",
-        "author": "Aristotle",
-        "quotes": "Quality is not an act, it is a habit.",
-        "type": "Motivational"
+        "author": "Socrates",
+        "quotes": "I know that I am intelligent, because I know that I know nothing."
     },
     {
         "id": "5",
         "author": "Mark Twain",
-        "quotes": "The secret of getting ahead is getting started.",
-        "type": "Motivational"
+        "quotes": "Kindness is the language which the deaf can hear and the blind can see."
     },
     {
         "id": "6",
-        "author": "Alan Kay",
-        "quotes": "People who are really serious about software should make their own hardware.",
+        "author": "Plato",
+        "quotes": "Wise men speak because they have something to say; Fools because they have to say something.",
         "type": "Technology"
     },
     {
         "id": "7",
-        "author": "Tim Berners-Lee",
-        "quotes": "You affect the world by what you browse.",
-        "type": "Technology"
+        "author": "Benjamin Franklin",
+        "quotes": "By failing to prepare, you are preparing to fail."
     },
     {
         "id": "8",
-        "author": "Oren Etzioni",
-        "quotes": "AI is neither good nor evil. It's a tool. It's a technology for us to use.",
-        "type": "Technology"
+        "author": "Gauthama The Lord Buddha",
+        "quotes": "Do not judge yourself harshly. Without mercy for ourselves we cannot love the world."
     },
     {
         "id": "9",
-        "author": "Scott Cook",
-        "quotes": "We're still in the first minutes of the first data of the Internet revolution.",
-        "type": "Technology"
+        "author": "Mahatma Gandhi",
+        "quotes": "Our greatest ability as humans is not to change the world, but to change ourselves."
     },
     {
         "id": "10",
-        "author": "Gertrude Stein",
-        "quotes": "Everybody gets so much information all day long that they lose their common sense.",
-        "type": "Technology"
+        "author": "William Shakespeare",
+        "quotes": "Go wisely and slowly. Those who rush stumble and fall."
     },
     {
         "id": "11",
-        "author": "Theodore Roosevelt",
-        "quotes": "Believe you can and you're halfway there.",
-        "type": "Inspirational"
+        "author": "Marie Curie",
+        "quotes": "Be less curious about people and morea curious about ideas."
     },
     {
         "id": "12",
-        "author": "Robin Williams",
-        "quotes": "No matter what people tell you, words and ideas can change the world.",
-        "type": "Inspirational"
+        "author": "Isaac Newton",
+        "quotes": "What we know is a drop, what we don't know is an ocean."
     },
     {
         "id": "13",
-        "author": "Lao Tzu",
-        "quotes": "To the mind that is still, the whole universe surrenders.",
-        "type": "Inspirational"
+        "author": "Aristotle",
+        "quotes": "Educating the mind without education the heart is no education at all."
     },
     {
         "id": "14",
-        "author": "Aesop",
-        "quotes": "No act of kindness, no matter how small, is ever wasted.",
-        "type": "Inspirational"
+        "author": "Epictetus",
+        "quotes": "It's not what happens to you, but how you react to it that matters."
     },
     {
         "id": "15",
-        "author": "Rainer Maria Rilke",
-        "quotes": "The only journey is the one within.",
-        "type": "Inspirational"
+        "author": "William Shakespeare",
+        "quotes": "Have more than you show, Speak less than you know"
     },
     {
         "id": "16",
-        "author": "Oscar Wilde",
-        "quotes": "Experience is simply the name we give our mistakes.",
-        "type": "Experience"
+        "author": "Confucius",
+        "quotes": "A great man is hard on himself; a small man is hard on others."
     },
     {
         "id": "17",
-        "author": "Albert Einstein",
-        "quotes": "The only source of knowledge is experience",
-        "type": "Experience"
+        "author": "Laozi",
+        "quotes": "Those who understand others are clever, those who understand themselves are wise."
     },
     {
         "id": "18",
-        "author": "Albert Camus",
-        "quotes": "You can create experience. You must undergo it.",
-        "type": "Experience"
+        "author": "Emily Dickinson",
+        "quotes": "Dogs are better than human beings because they know but do not tell."
     },
     {
         "id": "19",
-        "author": "Frank McCourt",
-        "quotes": "The sky is the limit. You never have the same experience twice.",
-        "type": "Experience"
+        "author": "Henry Fielding",
+        "quotes": "Make money your god, and it will plague you like the devil."
     },
     {
         "id": "20",
-        "author": "Sally Ride",
-        "quotes": "All adventures, especially into new territory, are scary.",
-        "type": "Experience"
+        "author": "Socrates",
+        "quotes": "Falling down is not a failure. Failure comes when you stay where you have fallen."
     },
     {
         "id": "21",
-        "author": "Cesare Pavese",
-        "quotes": "We do not remember days, we remember moments.",
-        "type": "Life"
+        "author": "Johann Wolfgang von Goethe",
+        "quotes": "If you want to make life easy, make it hard."
     },
     {
         "id": "22",
-        "author": "Confucius",
-        "quotes": "Life is really simple, but we insist on making it complicated.",
-        "type": "Life"
+        "author": "Gauthama The Lord Buddha",
+        "quotes": "Every experience, no matter how bad it seems, holds within it a blessing of some kind. The goal is to find it."
     },
     {
         "id": "23",
-        "author": "Buddha",
-        "quotes": "Do no dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
-        "type": "Life"
+        "author": "William Wordsworth",
+        "quotes": "Relationships are base on four principles. Respect, Understanding, Acceptance and Appreciation."
     },
     {
         "id": "24",
-        "author": "Charles Darwin",
-        "quotes": "A man who dares to waste one hour of time has not discovered the value of life.",
-        "type": "Life"
+        "author": "Alexander Graham Bell",
+        "quotes": "The achievement of one goal should be the starting point of another."
     },
     {
         "id": "25",
-        "author": "Emily Dickinson",
-        "quotes": "Find ecstasy in life; the mere sense of living is joy enough.",
-        "type": "Life"
+        "author": "Romain Rolland",
+        "quotes": "A hero is a man who does what he can."
     },
     {
         "id": "26",
-        "author": "John Muir",
-        "quotes": "In every walk with nature one receives far more than he seeks.",
-        "type": "Wisdom"
+        "author": "Confucius",
+        "quotes": "Our greatest glory is not in never failing, but in rising every time we fall."
     },
     {
         "id": "27",
-        "author": "George Bernard Shaw",
-        "quotes": "Beware of false knowledge; it is more dangerous than ignorance.",
-        "type": "Wisdom"
+        "author": "Loazi",
+        "quotes": "One who believes has no need to convince others."
     },
     {
         "id": "28",
-        "author": "Franz Kafka",
-        "quotes": "Start with what is right rather than what is acceptable.",
-        "type": "Wisdom"
+        "author": "Abraham Lincoln",
+        "quotes": "We can complain because rose bushes have thorns, or rejoice because thorn bushes have roses."
     },
     {
         "id": "29",
-        "author": "Sigmund Freud",
-        "quotes": "Being entirely honest with oneself is a good exercise.",
-        "type": "Wisdom"
+        "author": "Albert Einstein",
+        "quotes": "The only thing more dangerous than ignorance is arrogance."
     },
     {
         "id": "30",
-        "author": "Joan Rivers",
-        "quotes": "Yesterday is history, tomorrow is a mystery, today is God's gift, that's why we call it the present.",
-        "type": "Wisdom"
+        "author": "Galileo Galilei",
+        "quotes": "All truths are easy to understand once they are discovered; the point is to discover them."
     },
     {
         "id": "31",
-        "author": "Saint Augustine",
-        "quotes": "The world is book, and those who do not travel read only a page.",
-        "type": "Travel"
+        "author": "Gottfried Leibniz",
+        "quotes": "Take what you need, do what you should, you will get what you want."
     },
     {
         "id": "32",
-        "author": "Matsuo Basho",
-        "quotes": "Every day is a journey, and the journey itself is home.",
-        "type": "Travel"
+        "author": "Rene Descartes",
+        "quotes": "Conquer yourself rather than the world."
     },
     {
         "id": "33",
-        "author": "Frank Borman",
-        "quotes": "Exploration is really the essence of the human spirit.",
-        "type": "Travel"
+        "author": "Paul The Apostle",
+        "quotes": "Bad company ruins good morals."
     },
     {
         "id": "34",
-        "author": "Danny Kaye",
-        "quotes": "To travel is to take a journey into yourself.",
-        "type": "Travel"
+        "author": "Rudolf Virchow",
+        "quotes": "Belief begins where science leaves off and ends where science begins."
     },
     {
         "id": "35",
@@ -211,45 +178,38 @@
     },
     {
         "id": "36",
-        "author": "Robert Collier",
-        "quotes": "Success is the sum of small efforts - repeated day in and day out.",
-        "type": "Success"
+        "author": "Charles Dickens",
+        "quotes": "A very little key will open a very heavy door."
     },
     {
         "id": "37",
-        "author": "Stephen Hawking",
-        "quotes": "However difficult life may seem, there is always something you can do and succeed at.",
-        "type": "Success"
+        "author": "Ernest Bramah",
+        "quotes": "Where the road bends abruptly, take short steps."
     },
     {
         "id": "38",
-        "author": "John F. Kennedy",
-        "quotes": "Victory has a thousand fathers, but defeat is an orphan.",
-        "type": "Success"
+        "author": "James Boswell",
+        "quotes": "in every picture there should be shade as well as light."
     },
     {
         "id": "39",
-        "author": "John Ruskin",
-        "quotes": "When love and skill work together, expect a masterpiece.",
-        "type": "Success"
+        "author": "Elizabeth Barrett Browning",
+        "quotes": "Silence is the best response to a fool."
     },
     {
         "id": "40",
-        "author": "Billie Jean King",
-        "quotes": "A champion is afraid of losing. Everyone else is afraid of winning.",
-        "type": "Success"
+        "author": "Franklin Pierce",
+        "quotes": "If your past is limited, your future is boundless."
     },
     {
         "id": "41",
-        "author": "Paul Klee",
-        "quotes": "One eye sees, the other feels.",
-        "type": "Art"
+        "author": "Karl Max",
+        "quotes": "The production of too many useful things results in too many useless people."
     },
     {
         "id": "42",
-        "author": "Henry David Thoreau",
-        "quotes": "This world is but a canvas to our imagination.",
-        "type": "Art"
+        "author": "Isaac newton",
+        "quotes": "My powers are ordinary. Only my application brings me success."
     },
     {
         "id": "43",
@@ -259,44 +219,37 @@
     },
     {
         "id": "44",
-        "author": "Unknown",
-        "quotes": "A picture is worth a thousand words.",
-        "type": "Art"
+        "author": "George Sand",
+        "quotes": "There is only one happiness in life, to love and be loved."
     },
     {
         "id": "45",
-        "author": "Marcel Proust",
-        "quotes": "Only through art can we emerge from ourselves and know what another person sees.",
-        "type": "Art"
+        "author": "Democritus",
+        "quotes": "It is hard to fight desire; but ot control it is the sign of a reasonable man."
     },
     {
         "id": "46",
-        "author": "Jim Carrey",
-        "quotes": "Behind every great man is a woman rolling her eyes.",
-        "type": "Funny"
+        "author": "Sain Augustine",
+        "quotes": "Attract them by the way you live."
     },
     {
         "id": "47",
-        "author": "Arthur C. Clarke",
-        "quotes": "It has yet to be proven that intelligence has any survival value.",
-        "type": "Funny"
+        "author": "Confucius",
+        "quotes": "A man is great not because he hasn't failed; a man is great because failure hasn't stopped him."
     },
     {
         "id": "48",
-        "author": "Karl Barth",
-        "quotes": "Joy is the simplest form of gratitude.",
-        "type": "Thankful"
+        "author": "George Washington",
+        "quotes": "Where there is no vision, there is no hope."
     },
     {
         "id": "49",
-        "author": "Martha Graham",
-        "quotes": "THe body is a sacred garment.",
-        "type": "Health"
+        "author": "Leonardo da Vinci",
+        "quotes": "Simplicity is the ultimate sophistication."
     },
     {
         "id": "50",
-        "author": "Carl Sandburg",
-        "quotes": "Nothing happens unless first we dream.",
-        "type": "Dreams"
+        "author": "Florence Nightingale",
+        "quotes": "Live life when you have it. Life is a splendid gift-there is nothing small about it."
     }
 ]
