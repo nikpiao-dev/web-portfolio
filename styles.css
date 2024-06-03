@@ -1099,11 +1099,16 @@ footer {
 
 	.social-links li {
 		overflow: hidden;
+		font-size: 1.3rem;
 	}
 
 	#social li {
 		overflow: hidden;
-	}	
+	}
+	
+	#contactMe, .email a {
+		font-size: 0.7rem;
+	}
 }
 
 /* Media query for tablet screens (425px to 711px) */
@@ -1181,5 +1186,6 @@ footer {
 
 	#social li i {
 		font-size: 1.4rem;
+		overflow: hidden;
 	}
 }
