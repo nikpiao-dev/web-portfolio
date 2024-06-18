@@ -990,6 +990,23 @@ footer {
 	overflow: hidden;
   }
 
+  .menu {
+	overflow: hidden;
+  }
+
+  .menu-links li:hover,
+  .menu-links a:hover {
+	color: #6495ED;
+	cursor: pointer;
+	transition: all 0.4s ease-out;  
+ }  
+
+ .menu-links a:hover {
+	color: #6495ED;
+	transform: scale(1.15);
+ } 
+
+
   .social-links li {
 	font-size: 1.4rem;
   }
