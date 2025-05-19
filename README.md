@@ -1,5 +1,7 @@
 # web-portfolio
 
+![Web Portfolio Demo](web-portfolio.png)
+
 Portfolio Project
 
 Introduction
