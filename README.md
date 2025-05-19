@@ -1,6 +1,6 @@
 # web-portfolio
 
-![Web Portfolio Demo](web-portfolio.png)
+![Web Portfolio Demo](web-portfolio_.png)
 
 Portfolio Project
 
